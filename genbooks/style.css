@@ -1,0 +1,40 @@
+@font-face{
+    font-family:"dot";
+    src:url("./DotGothic16-Regular.ttf") format("truetype");
+}
+
+body{
+    font-family: dot;
+    font-size: 1.5vh;
+    color: black;
+    margin: 5%;
+    background-color:black;
+    background: url(./main.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.menu{
+    align-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    z-index: 1;
+    width: 150px;
+    height: fit-content;
+    padding: 3%;
+    padding-top: 2%;
+    position: fixed;
+    
+}
+.proj{
+    text-align: justify;
+}
+.proj:hover{
+    background-color: yellow;
+    
+}
+img{
+width: 40vw;
+height: auto;
+margin-left: 45%;
+margin-bottom: 2%;
+}
